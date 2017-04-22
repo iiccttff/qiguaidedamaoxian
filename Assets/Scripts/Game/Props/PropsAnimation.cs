@@ -2,11 +2,11 @@
 // 
 // 文件名(File Name)：             PropsAnimation
 // 
-// 作者(Author)：                  Sheen
+// 作者(Author)：                  Circle
 // 
-// 创建时间(CreateTime):           2015/12/9 2:10:19
+// 创建时间(CreateTime):           2016/12/9 2:10:19
 //
-// 网址：                          www.youke.pro
+// 网址：                          http://blog.csdn.net/u013108312
 //
 // **********************************************************************
 

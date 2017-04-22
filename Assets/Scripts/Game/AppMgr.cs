@@ -6,7 +6,7 @@
 // 
 // 创建时间(CreateTime):           #CreateTime#
 //
-// 网址：                          www.youke.pro
+// 网址：                          http://blog.csdn.net/u013108312
 //
 // **********************************************************************
 
@@ -56,7 +56,7 @@ public class AppMgr : EventNode
         mInstance = this;
     }
 
-    private const string mSoundValueKey = "YOUKESoundValueKEY";
+    private const string mSoundValueKey = "circleSoundValueKEY";
     public bool SoundValue
     {
         get
@@ -70,7 +70,7 @@ public class AppMgr : EventNode
         }
     }
 
-    private const string mMusicValueKey = "YOUKEMusicValueKEY";
+    private const string mMusicValueKey = "circleMusicValueKEY";
     public bool MusicValue
     {
         get
@@ -91,7 +91,7 @@ public class AppMgr : EventNode
     }
 #region 保存数据块
 
-    private const string mOpenLevelsKey = "YOUKEOpenLevelsKEY";
+    private const string mOpenLevelsKey = "circleOpenLevelsKEY";
 
     
     /// <summary>

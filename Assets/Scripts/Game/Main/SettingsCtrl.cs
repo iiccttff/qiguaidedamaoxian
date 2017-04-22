@@ -2,11 +2,11 @@
 // 
 // 文件名(File Name)：             SettingsCtrl
 // 
-// 作者(Author)：                  Sheen
+// 作者(Author)：                  Circle
 // 
-// 创建时间(CreateTime):           2015/11/18 18:52:40
+// 创建时间(CreateTime):           2016/11/18 18:52:40
 //
-// 网址：                          www.youke.pro
+// 网址：                          http://blog.csdn.net/u013108312
 //
 // **********************************************************************
 
