@@ -1,0 +1,6 @@
+CanvasDie=
+CanvasSelectLevel=
+CanvasSettings=
+CanvasStart=
+DOTweenSettings=
+Level_1=

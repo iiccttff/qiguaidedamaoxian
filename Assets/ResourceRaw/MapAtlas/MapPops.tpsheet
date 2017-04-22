@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: mapPops.png (512 x 512)
+# $TexturePacker:SmartUpdate:7442c121be480b5ba7d9a3068741fae5:df1143330b37a731d4e5f9c1d6edddae:738cb1fd49832fe42e453fdb6b795e79$
+#
+
+Cloud_bad;368;361;138;99;0.4927536231884058;0.5
+Cloud_normal;2;397;122;87;0.4918032786885246;0.5114942528735632
+Grass;76;486;72;24;0.5;0.5
+Key_48x48;265;464;48;46;0.5;0.5217391304347826
+Lady;315;462;44;48;0.5;0.5
+Missile_48x72_toleft;150;474;72;36;0.5;0.5
+SaveFlag;224;469;39;41;0.5;0.5487804878048781
+Saw_48x12_right;361;462;24;48;0.5;0.5
+Saw_72x12;2;498;72;12;0.5;0.5
+Stage1_1_hello;126;364;240;96;0.5;0.5
+Unknown;387;462;48;48;0.5;0.5
+UnknownBrickOver;437;462;48;48;0.5;0.5

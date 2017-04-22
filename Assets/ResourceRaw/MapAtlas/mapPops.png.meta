@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: b49653d766f42ac45aa6b4d0bf7e09a2
+timeCreated: 1448646269
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cloud_bad
+    21300002: Cloud_normal
+    21300004: Grass
+    21300006: Key_48x48
+    21300008: Lady
+    21300010: Missile_48x72_toleft
+    21300012: SaveFlag
+    21300014: Saw_48x12_right
+    21300016: Saw_72x12
+    21300018: Stage1_1_hello
+    21300020: Unknown
+    21300022: UnknownBrickOver
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Cloud_bad
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 361
+        width: 138
+        height: 99
+      alignment: 9
+      pivot: {x: .492753625, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud_normal
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 397
+        width: 122
+        height: 87
+      alignment: 9
+      pivot: {x: .491803288, y: .511494279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grass
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 486
+        width: 72
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Key_48x48
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 464
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: .5, y: .521739125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lady
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 462
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Missile_48x72_toleft
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 474
+        width: 72
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SaveFlag
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 469
+        width: 39
+        height: 41
+      alignment: 9
+      pivot: {x: .5, y: .548780501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Saw_48x12_right
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 462
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Saw_72x12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 498
+        width: 72
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Stage1_1_hello
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 364
+        width: 240
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Unknown
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 462
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UnknownBrickOver
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 462
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
