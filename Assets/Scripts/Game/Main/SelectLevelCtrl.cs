@@ -15,8 +15,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using DG.Tweening;
- 
-public class SelectLevelCtrl : BaseUI , UIMgr.ILoadUIListener
+using Assets.Scripts.MyFramwork.UIMgr;
+
+public class SelectLevelCtrl : BaseUI , ILoadUIListener
 {
 
     public static SelectLevelCtrl Instance

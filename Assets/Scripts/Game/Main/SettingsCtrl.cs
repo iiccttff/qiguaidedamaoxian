@@ -15,8 +15,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using Assets.Scripts.MyFramwork.UIMgr;
 
-public class SettingsCtrl : BaseUI , UIMgr.ILoadUIListener
+public class SettingsCtrl : BaseUI , ILoadUIListener
 {
     private List<string> mFindNames = new List<string>()
     {

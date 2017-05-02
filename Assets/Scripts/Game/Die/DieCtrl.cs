@@ -14,8 +14,9 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Assets.Scripts.MyFramwork.UIMgr;
 
-public class DieCtrl : BaseUI , UIMgr.ILoadUIListener
+public class DieCtrl : BaseUI , ILoadUIListener
 {
     private int mCurrentLevel = 1;
     private int mDieNum = 0;

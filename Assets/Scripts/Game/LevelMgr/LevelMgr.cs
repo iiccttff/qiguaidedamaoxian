@@ -12,8 +12,9 @@
 
 using UnityEngine;
 using System.Collections;
+using Assets.Scripts.MyFramwork.UIMgr;
 
-public class LevelMgr : BaseUI , IEventListener , UIMgr.ILoadUIListener
+public class LevelMgr : BaseUI , IEventListener , ILoadUIListener
 {
 
     private int mCurrentLevel;

@@ -12,11 +12,18 @@
 
 using UnityEngine;
 using System.Collections;
+using Assets.Scripts.MyFramwork.UIMgr;
 
 public class Initializer :MonoBehaviour
 {
 	void Start()
 	{
+        if (this.transform.FindChild("UIRoot") == null)
+        {
+            GameObject go = new GameObject("UIRoot");
+            go.transform.parent = this.transform;
+        }
+        
         DontDestroyOnLoad(this.gameObject);
 
         StartGame();

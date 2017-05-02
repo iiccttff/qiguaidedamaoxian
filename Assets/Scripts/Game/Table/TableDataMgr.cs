@@ -14,8 +14,9 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using LitJson;
+using Assets.Scripts.MyFramwork.UIMgr;
 
-public class TableDataMgr : MonoBehaviour , UIMgr.ILoadUIListener
+public class TableDataMgr : MonoBehaviour , ILoadUIListener
 {
     public static TableDataMgr Instance
     {
@@ -42,6 +43,7 @@ public class TableDataMgr : MonoBehaviour , UIMgr.ILoadUIListener
 //         skillCfg = new SkillCfg("Skill");
         UIMgr.Instance.ShowUI(UIDef.StartUI, typeof(StartCtrl), this);
         return;
+
         for (int i = 0; i < mLoadTables.Count;i++ )
         {
             ResMgr.Instance.Load(mLoadTables[i].tableName,mLoadTables[i]);
@@ -73,6 +75,7 @@ public class TableDataMgr : MonoBehaviour , UIMgr.ILoadUIListener
 
         public void Finish(object asset)
         {
+            Debug.LogError("000000000000");
             Log.Debug("tableName" + tableName + "/Instance.mLoadTables =" + Instance.mLoadTables.Count);
             TextAsset text = asset as TextAsset;
             if (text == null)

@@ -15,8 +15,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using Assets.Scripts.MyFramwork.UIMgr;
 
-public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
+public class StartCtrl : BaseUI , ILoadUIListener
 {
     private List<string> mFindNames = new List<string>()
     {
@@ -29,6 +30,7 @@ public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
     /// </summary>
     protected override void OnInit()
     {
+        //Log.Error("OnInit StartCtrl");
         List<Transform> findTrans = new List<Transform>();
         ComUtil.GetTransformInChild(mFindNames, CacheTransform, ref findTrans);
 
@@ -65,7 +67,7 @@ public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
 
     protected override void OnAwake() 
     {
-
+        //Log.Error("OnAwake StartCtrl");
     }
 
     /// <summary>
@@ -74,7 +76,7 @@ public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
     /// <param name="param">附加参数</param>
     protected override void OnShow(object param) 
     {
-
+        //Log.Error("OnShow StartCtrl");
     }
 
     /// <summary>
@@ -82,7 +84,7 @@ public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
     /// </summary>
     protected override void OnHide() 
     {
-
+        //Log.Error("OnHide StartCtrl");
     }
 
     /// <summary>
@@ -90,20 +92,24 @@ public class StartCtrl : BaseUI , UIMgr.ILoadUIListener
     /// </summary>
     protected override void OnDestroy()
     {
-
+        //Log.Error("OnDestroy StartCtrl");
     }
 
 
     public void FiniSh(BaseUI ui)
     {
+       // Log.Error("FiniSh StartCtrl");
+
         if (ui.UIName == UIDef.SettingsUI
             || ui.UIName == UIDef.SelectLevelUI)
         {
             UIMgr.Instance.HideUI(this.UIName);
+            //UIMgr.Instance.DestroyUI(this.UIName); 删除UI
         }
     }
 
     public void Failure()
     {
+        //Log.Error("Failure StartCtrl");
     }
 }
